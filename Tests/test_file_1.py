@@ -6,6 +6,13 @@ import pytest
 def func(x):
     return x + 1
 
+def add(a, b):
+    return a + b
+
 
 def test_answer():
     assert func(4) == 5
+
+
+def test_addition():
+    assert add(1, 9) == 10
