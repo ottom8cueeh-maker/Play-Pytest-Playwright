@@ -5,7 +5,7 @@ def person_type(person):
         return 'good'
 
 def relative_age(howold):
-    if howold >= 40:
+    if howold >= 60:
         return "old"
     else:
         return "young"
