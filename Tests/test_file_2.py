@@ -2,4 +2,4 @@ def square(a):
     return a * a
 
 def test_square():
-    assert square(5) > 5
+    assert square(5) > 10
