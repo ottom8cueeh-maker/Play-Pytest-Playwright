@@ -5,4 +5,4 @@ def test_square():
     assert square(5) > 10
 
 def test_always_true():
-    assert 1 == 1
+    assert 2 == 2
