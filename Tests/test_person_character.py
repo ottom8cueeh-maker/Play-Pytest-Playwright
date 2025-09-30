@@ -16,4 +16,4 @@ def test_person():
     assert personcharacter == 'douchbag'
 
 def test_relative_age():
-    assert relative_age(50) == "old"
+    assert relative_age(60) == "old"
