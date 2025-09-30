@@ -1,19 +1,20 @@
 def person_type(person):
-    if person == "Donald Trump":
-        return 'douchbag'
-    else:
-        return 'good'
+    return "douchbag" if person == "Donald Trump" else "dencent human being"
+
+def rank_height(h_cm):
+    return "tall" if h_cm * 2.54 > 173 else "not tall"
 
 def relative_age(howold):
-    if howold >= 60:
-        return "old"
-    else:
-        return "young"
+    return "old" if howold >= 60 else "young"
+
 
 def test_person():
     person = "Donald Trump"
-    personcharacter = person_type(person)
-    assert personcharacter == 'douchbag'
+    person_character = person_type(person)
+    assert person_character == 'douchbag'
 
 def test_relative_age():
     assert relative_age(70) == "old"
+
+def test_person_tall_short(height_cm=180):
+    assert rank_height(height_cm) == "tall"
