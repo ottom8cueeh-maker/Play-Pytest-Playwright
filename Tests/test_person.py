@@ -8,10 +8,8 @@ def relative_age(howold):
     return "old" if howold >= 60 else "young"
 
 
-def test_person():
-    person = "Donald Trump"
-    person_character = person_type(person)
-    assert person_character == 'douchbag'
+def test_person(person="Donald Trump"):
+    assert person_type(person) == 'douchbag'
 
 def test_relative_age():
     assert relative_age(70) == "old"
