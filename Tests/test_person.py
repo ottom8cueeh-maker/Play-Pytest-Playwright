@@ -7,7 +7,6 @@ def rank_height(h_cm):
 def relative_age(howold):
     return "old" if howold >= 60 else "young"
 
-
 def test_person(person="Donald Trump"):
     assert person_type(person) == 'douchbag'
 
