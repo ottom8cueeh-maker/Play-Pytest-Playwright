@@ -1,5 +1,5 @@
 def person_type(person):
-    return "douchbag" if person == "Donald Trump" else "dencent human being"
+    return "dumbass" if person == "Donald Trump" else "dencent human being"
 
 def rank_height(h_cm):
     return "tall" if h_cm * 2.54 > 173 else "not tall"
