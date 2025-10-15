@@ -13,5 +13,6 @@ def test_addition():
     assert add(1, 9) == 10
 
 def test_subtraction():
-    assert add(10, 1) > 0
+    assert minus(10, 1) > 0
+
 
