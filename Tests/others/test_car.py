@@ -17,3 +17,6 @@ def dummy_func():
 
 def test_coder_changes():
     assert 1==1
+
+def test_programmer_changes():
+    assert 1==1
