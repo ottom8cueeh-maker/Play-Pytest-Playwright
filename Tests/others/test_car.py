@@ -16,7 +16,7 @@ def dummy_func():
     assert 'a' == 'a'
 
 def test_coder_changes():
-    assert 1==1
+    assert 9999==9999
 
 def test_programmer_changes():
     assert 1==1
