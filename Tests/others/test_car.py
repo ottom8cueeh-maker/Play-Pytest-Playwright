@@ -12,5 +12,8 @@ def test_fuel_economy():
     # A good fuel consumption rate is below (<) 6 litres per 100 kilometers
     assert calculate_fuel_economy(4, 90) <= 6
 
-def dummy_funct():
-    assert 'X' == 'X'
+def dummy_func():
+    assert 'a' == 'a'
+
+def test_coder_changes():
+    assert 1==1
