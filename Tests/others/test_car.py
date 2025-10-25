@@ -14,3 +14,6 @@ def test_fuel_economy():
 
 def dummy_func():
     assert 'a' == 'a'
+
+def test_coder_changes():
+    assert 1==1
