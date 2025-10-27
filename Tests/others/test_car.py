@@ -13,7 +13,7 @@ def test_fuel_economy():
     assert calculate_fuel_economy(4, 90) <= 6
 
 def dummy_func():
-    assert 'a' == 'a'
+    assert 'abc' == 'abc'
 
 def test_coder_changes():
     assert 100=100
