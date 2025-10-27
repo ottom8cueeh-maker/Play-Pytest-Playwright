@@ -19,5 +19,5 @@ def test_coder_changes():
     assert 100=100
 
 def test_programmer_changes():
-    assert 1==1
+    assert 2==2
 
