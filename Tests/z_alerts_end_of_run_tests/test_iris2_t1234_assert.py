@@ -1,6 +1,5 @@
 import datetime
 
-
 def test_day_of_week():
     # Get today's date
     today = datetime.date.today()
@@ -12,7 +11,3 @@ def test_day_of_week():
 def test_is_leap_year(year=2024):
     assert (year % 4 == 0)
     assert (year % 100 != 0 or year % 400 == 0)
-
-
-
-
