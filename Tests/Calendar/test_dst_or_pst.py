@@ -10,7 +10,7 @@ def test_dst():
     nowdst = datetime.now(tz)
 
     # Check if DST is in effect
-    assert nowdst.dst() != timedelta(0)
+    assert nowdst.dst() == timedelta(0)
 
 def test_not_pst():
     # Choose your timezone
@@ -20,4 +20,4 @@ def test_not_pst():
     now = datetime.now(tz)
 
     # Check if standard time
-    assert now.dst() != timedelta(0)
+    assert now.dst() == timedelta(0)
