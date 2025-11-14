@@ -11,6 +11,6 @@ def get_card_type(cardno):
         case _:
             return "Unknown Number"
 
-
+@pytest.mark.smoke
 def test_visa_card(cn='4242424242424242'):
     assert get_card_type(cn) == "Visa"
