@@ -12,6 +12,7 @@ def test_dst():
     # Check if DST is in effect
     assert nowdst.dst() == timedelta(0)
 
+
 def test_not_pst():
     # Choose your timezone
     tz = pytz.timezone("America/Vancouver")
