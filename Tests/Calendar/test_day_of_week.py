@@ -9,7 +9,7 @@ def test_day_of_week():
     # Get the day of the week
     assert today.strftime("%A") == "Thursday"
 
-
+  
 def test_is_leap_year(year=2024):
     """test if a given year is a leap year"""
     assert (year % 4 == 0)
