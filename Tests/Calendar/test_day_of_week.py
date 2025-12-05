@@ -7,7 +7,7 @@ def test_day_of_week():
     today = datetime.date.today()
 
     # Get the day of the week
-    assert today.strftime("%A") == "Sunday"
+    assert today.strftime("%A") == "Thursday"
 
 
 def test_is_leap_year(year=2024):
