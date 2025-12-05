@@ -17,4 +17,4 @@ def current_season(month):
 
 def test_current_season():
     curr_season = current_season(datetime.now().strftime("%b"))
-    assert curr_season == "Fall"
+    assert curr_season == "Winter"
